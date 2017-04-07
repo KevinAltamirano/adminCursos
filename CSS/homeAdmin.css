@@ -185,6 +185,10 @@ li a:hover:not(.active) {
     background-color: #3D9970;
 }
 
+.user{
+    background-color:#0074D9 ;
+}
+
 
 .section {
   position: relative;

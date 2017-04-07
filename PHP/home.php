@@ -42,9 +42,12 @@ $resultado2="";
     </head>
     <body>
         <ul>
+            
             <li><a href="home.php" class="active">Horarios</a></li>
             <li><a href="aceptarCurso.php">Cursos Disponibles</a></li>
             <li><a href="loginCursos.php">LogOut</a></li>
+            <li><a class="active" ;>Usuario : <?php echo $nameR?></a></li>
+            
         </ul>
         <div class="table-title">
         </div>
@@ -58,6 +61,7 @@ $resultado2="";
                 <th class="text-left">Final</th>
                 <th class="text-left">Horas</th>
                 <th class="text-left">Dias</th>
+                
             </tr>
         </thead>
         <br><br>

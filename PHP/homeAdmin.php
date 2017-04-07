@@ -1,5 +1,6 @@
 <?php
- 
+ session_start();
+ $nameR= $_SESSION['nickname'];
 $servidor       = "localhost";
 $usuario        = "root";
 $clave          = "";
@@ -52,6 +53,7 @@ $resultado2="";
             <li><a href="agregarCurso.php">Agregar Curso</a></li>
             <li><a href="agregarAlumno.php">Agregar Alumno</a></li>
             <li><a href="loginCursos.php">LogOut</a></li>
+            <li><a class="active" ;>Usuario : <?php echo $nameR?></a></li>
         </ul>
         <div class="table-title">
         </div>

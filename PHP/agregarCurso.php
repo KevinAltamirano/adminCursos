@@ -1,4 +1,6 @@
  <?php
+session_start();
+ $nameR= $_SESSION['nickname'];
 
         if (isset($_POST['cursoName']) & isset($_POST['cursoIni'])) {
 
@@ -36,6 +38,7 @@
             <li><a href="agregarCurso.php" class="active">Agregar Curso</a></li>
             <li><a href="agregarAlumno.php">Agregar Alumno</a></li>
             <li><a href="loginCursos.php">LogOut</a></li>
+            <li><a class="active" ;>Usuario : <?php echo $nameR?></a></li>
         </ul>
 
         <div class="container">  
